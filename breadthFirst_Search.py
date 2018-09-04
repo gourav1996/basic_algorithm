@@ -1,7 +1,7 @@
 from collections import deque
 
 def person_is_seller(name):
-    """判断是否为芒果经销商，以最后以为是否为字母'm'"""
+    """判断是否为芒果经销商，以最后一位是否为字母'm'"""
     return name[-1] == 'm'
 
 def search(name):
